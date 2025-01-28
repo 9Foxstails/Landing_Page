@@ -3,25 +3,54 @@
     flex-flow: column;
 }
 
+.quote{
+    background-color: #E5E7EB;
+}
+
+.body1{
+    background-color: #1F2937;
+    margin: 2em 10em;
+}
+
 .box{
     display: flex;
     flex-flow: column;
 }
 
-.box2{
+.boxsus{
     display: flex;
     flex-flow: row;
+    align-self: center;
+    border: 2px solid black;
+    margin: 2em 10em;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    border: 2px solid black;
+    margin: 2em 10em;
+    align-items: center;
 }
 
 ul{
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 50px;
     list-style-type: none;
     border: 2px solid black;
+}
+
+.font{
+    font-family: 'Roboto';
+}
+
+h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
