@@ -13,7 +13,6 @@
 
 .body1{
     background-color: #1F2937;
-    margin: 2em 10em;
 }
 
 .box{
@@ -32,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
-    margin: 2em 8em;
     align-items: center;
 }
 
@@ -96,11 +94,29 @@ button{
 }
 
 .margin{
-    margin: 0em 8em;
-    margin-top: 2em;
+    padding: 2em 8em;
 }
 
 .rex{
     align-self: flex-end;
     font-size: medium;
+}
+
+.footer_box{
+    border: 2px solid black;
+    display: flex;
+    flex-flow: row;
+    background-color: #3882F6;
+    justify-content: space-between;
+    margin: 24px 48px;
+}
+
+.footer_button{
+    border: #F9FAF8 2px solid;
+    border-radius: 10px;
+}
+
+.hero_text_2{
+    font-size: 18px;
+    color: #E5E7EB;
 }
