@@ -69,3 +69,21 @@ button{
     background-color: #3882F6;
     color: #F9FAF8;
 }
+
+.style1{
+    width: 200px;
+    height: 200px;
+    border: 4px #3882F6 solid;
+    border-radius: 25px;
+}
+
+.main_dog_container{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 24px;
+}
+
+.main_2{
+    align-self: center;
+}
