@@ -20,16 +20,15 @@
 .boxsus{
     display: flex;
     flex-flow: row;
-    align-self: center;
     border: 2px solid black;
-    margin: 2em 10em;
+    margin: 2em 8em;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
     border: 2px solid black;
-    margin: 2em 10em;
+    margin: 2em 8em;
     align-items: center;
 }
 
@@ -53,4 +52,20 @@ h2{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0px;
+}
+
+img{
+    flex: 1;
+}
+
+.main{
+    flex: 1;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
